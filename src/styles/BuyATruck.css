@@ -1,0 +1,45 @@
+.second_mini_container{
+    position: relative;
+}
+.truck-image-section {
+    margin-left: 16px;
+    background: rgb(73, 73, 117);
+    overflow: hidden;
+    height: auto;
+    width: auto;
+}
+
+.truck-image-section img{
+    object-fit: cover;
+    opacity: 0.4;
+
+}
+.text-section-two{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+    color: white;
+    position: absolute;
+    top: 110px;
+    right: 370px;
+    
+}
+#text_four{
+    font-size: 16px;
+    font-weight: 900;
+}
+
+#text_five{
+    font-size: 36px;
+    font-weight: 900;
+    margin: 5px 0;
+    line-height: 43px;
+}
+#text_six{
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn-group{
+margin-top: 5px;
+}

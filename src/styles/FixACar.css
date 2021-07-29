@@ -1,0 +1,27 @@
+.third_mini_container{
+    position: relative;
+}
+.ThirdBox{
+    background: rgb(73, 73, 117);
+    overflow: hidden;
+    height: auto;
+    width: auto;
+}
+
+.ThirdBox img{
+    object-fit: cover;
+    opacity: 0.4;
+     
+}
+
+.text-section-three{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    right: 270px;
+
+}

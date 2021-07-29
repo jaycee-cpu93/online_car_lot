@@ -1,0 +1,46 @@
+.first_mini_container{
+    position: relative;
+}
+.car-image-section{
+    background: rgb(73, 73, 117);
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    
+}
+.car-image-section img{
+    padding-right: 0px;
+    object-fit: cover;
+    opacity: 0.4;
+
+}
+
+.text-section{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 16px;
+    margin-left: 16px;
+}
+#text_one{
+    font-size: 16px;
+    font-weight: 900;
+}
+
+#text_two{
+    font-size: 36px;
+    font-weight: 900;
+    margin: 5px 0;
+    line-height: 43px;
+}
+#text_three{
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn-group{
+margin-top: 5px;
+}
