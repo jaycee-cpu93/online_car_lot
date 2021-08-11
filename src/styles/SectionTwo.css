@@ -1,0 +1,32 @@
+.car-text-container{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-items: center;
+padding-top: 100px;
+
+}
+
+.title-paragraph{
+    width: 50%;
+    padding-left: 70px;
+   
+}
+
+.title{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 120%;
+    margin-bottom: 5%;
+}
+
+.description{
+    font-size: 13px;
+    line-height: 180%;
+}
+
+.suv-car{
+    height: 100%;
+    width: 45%;
+
+}

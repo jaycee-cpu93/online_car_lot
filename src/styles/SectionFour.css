@@ -1,0 +1,106 @@
+.big_container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+   width: 50%;
+}
+
+.featured_car{
+    margin-left: 50px;
+}
+.Card_new{
+    margin-left: 50px;
+    height: 320px;
+    width: 230px;
+    background: black;
+    overflow: hidden;
+    position: relative;
+    border-radius: 2px;
+    border-style: none;
+    box-shadow: -1px 1px 10px #b9b9b9;
+    cursor: pointer;
+    
+  }
+
+  .Card_new:hover{
+      box-shadow: -5px 5px 10px #b9b9b9;
+
+  }
+
+  .Card_new img{
+      object-fit: cover;
+      opacity: 0.7;
+      padding-left: 10px;
+  }
+
+  
+  .container_new{
+    background: white;
+    height: 350px;
+    overflow: hidden;
+    padding: 0 3px 0 3px;
+    position: relative;
+    /* border: 1px solid; */
+
+}
+
+
+.first_car_featured{
+    width: 45%;
+}
+
+.year_name{
+    position: absolute;
+    bottom: 125px;
+    padding-left: 5px;
+}
+
+.year{
+    background-color: white;
+    
+}
+
+.name_of_car{
+    color: white;
+
+}
+.price{
+    padding-left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.price_and_rating{
+    padding-bottom: 2.5px;
+}
+  
+    
+
+
+.car_details{
+    display: flex;
+    flex-direction: row; 
+    font-size: 8.5px;
+    align-content: center;
+    justify-content: first baseline;
+}
+
+.button_{
+    padding: 2px;
+    color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    border-radius: 2px;
+    border-style: solid;
+    font-size: 12px;
+    box-shadow: -2px 1px 5px #161212;
+    
+}
+.amount_and_car_loan{
+    position: absolute;
+    bottom: 235px;
+    right: 5px;
+}
+.amount{
+    font-size: 10px;
+    padding-right: 40px;
+}

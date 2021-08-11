@@ -1,0 +1,124 @@
+.container_spacebetween{
+    display: flex;
+    flex-direction: row;
+    padding: 100px 50px;
+    width: 100%;
+   
+    
+}
+
+.search_text_container{
+    width: 50%;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 120%;
+    margin-bottom: 10%;
+    width: 74%;
+}
+
+.description{
+    font-size: 13px;
+    line-height: 180%;
+    margin-bottom: 3%;
+    width:76%;
+}
+
+
+
+.all_cars{
+    display: flex;
+    flex-direction: column;
+    padding-left: 120px;
+    padding-top: 20px;
+    justify-content: center;
+    align-content: center;
+}
+.general_height_width{
+    height:30px;
+    width: 30px;
+}
+.audi_logo{
+    margin-bottom: 50px;
+    height:40px;
+    width: 40px;
+}
+
+.bmw_logo{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    height:40px;
+    width: 40px;
+}
+.honda_logo{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    height:40px;
+    width: 40px;
+}
+
+.hyundai_logo{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    height:40px;
+    width: 40px;
+
+}
+
+.jaguar_logo{
+    margin-bottom: 50px;
+    height:40px;
+    width: 40px;
+}
+
+.kia_logo{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    height:40px;
+    width: 40px;
+}
+.landrover_logo{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    height:40px;
+    width: 40px;
+}
+
+.lexus_logo{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    height:40px;
+    width: 40px;
+
+}
+.benz_logo{
+    margin-bottom: 50px;
+    height:40px;
+    width: 40px;
+}
+
+.nissian_logo{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    height:40px;
+    width: 40px;
+}
+.toyota_logo{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    height:40px;
+    width: 40px;
+}
+
+.volks_logo{
+    margin-left: 50px;
+    margin-bottom: 50px;
+    height:40px;
+    width: 40px;
+
+}
+
+
+

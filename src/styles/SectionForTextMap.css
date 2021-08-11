@@ -1,0 +1,140 @@
+.space_between{
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+
+.container{
+    max-width: 1440px;
+    margin: auto;
+    height: 100%;
+}
+
+.title{
+    width: 85%;
+    margin-bottom: 10%;
+}
+.description{
+    width: 85%;
+}
+
+.map_style svg{ 
+    opacity: .15;
+    height: 350px;
+    bottom: 0px;
+    position: absolute;
+    left: 300px;
+    
+}
+.butn{
+    margin-top: 25px;
+    
+}
+.spot-container{
+    position: relative;
+}
+
+.spot{
+    width: 20px;
+    min-width: 20px;
+    flex: 0 0 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255,191,31,.3);
+    transition: all .3s ease-in-out;
+    position: absolute;
+    cursor: pointer;
+}
+.spot::after{   
+    content: "";
+    width: 35px;
+    min-width: 35px;
+    flex: 0 0 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 4px 14px rgb(0 0 0 / 9%), 0 10px 24px rgb(255 191 31 / 40%);
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    right: 20%;
+    bottom: 30%;
+}
+
+.spot1{
+    left: 47%;
+    bottom: 19%;
+}
+.spot3{
+    right: 6%;
+    bottom: 40%;
+}
+
+.spot2{
+    top: 49%;
+    left: 53%;
+}
+.spot.spot4{
+    right: 22%;
+    bottom: 39%;
+}
+
+.spot-details{
+    position: absolute;
+    border-radius: 8px;
+    border: 2px solid #ffc107;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 4px 14px rgb(0 0 0 / 9%), 0 10px 24px rgb(255 191 31 / 40%);
+    width: 192px;
+    color: #31355b;
+    right: 13%;
+    top: 12%;
+}
+
+.spot-time{
+    font-size: 10px;
+}
+.spot-car{
+    margin-top: 5px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.spot-address{
+    font-size: 10px;
+    color: rgba(49,53,91,.4);
+    margin-bottom: 10px;
+}
+.spot-pickup{
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 500;
+    color: rgba(0,0,0,.4);
+    margin-bottom: 5px;
+}
+
+.spot-pickup::after {
+    content: "";
+    position: absolute;
+    border-radius: 0 8px;
+    width: 30px;
+    height: 30px;
+    border-left: 2px solid #ffc107;
+    border-bottom: 2px solid #ffc107;
+    transform: rotate(
+    -45deg
+    );
+    background: #fff;
+    bottom: -16px;
+    left: calc(50% - 17px);
+}
+.spot-details::after{
+    right: 16%;
+    bottom: 26%;
+    
+}

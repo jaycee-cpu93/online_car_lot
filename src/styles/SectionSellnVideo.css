@@ -1,0 +1,39 @@
+
+.content{
+    max-width: 570px;
+    color: #000;
+    padding-right: 70px;
+    margin-top: 70px;
+}
+.sell_your_car{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 120%;
+    margin-bottom: 60px;
+    width: 110%;
+  
+   
+}
+
+.title_details{
+    font-size: 13px;
+    line-height: 29px;
+   
+}
+
+.content_n_video{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    max-width: 1440px;
+    margin: auto;
+    height: 100%
+}
+.sell_your_car_video video{
+    padding-top: 50px;
+    padding-left:70px;
+    
+}
+
