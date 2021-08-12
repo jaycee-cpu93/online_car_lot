@@ -7,7 +7,7 @@ const BuyATruck = () =>{
     return(
     <div className="second_mini_container">
     <div className="truck-image-section">
-      <img src="Image/trucks-min.jpg" alt="truck" height = "265px" width="640px"/>
+      <img src="Image/trucks-min.jpg" alt="truck" height = "265px" width="650px"/>
     </div>
     <div className="text-section-two">
             <span id="text_four">WANT TO </span>
