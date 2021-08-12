@@ -8,6 +8,7 @@ import SectionFour from './component/SectionFour';
 import SectionSellnVideo from './component/SectionSellnVideo';
 import SectionForTextMap from './component/SectionForTextMap'
 import DownloadStore from './component/DownloadStore'
+import Footer from './component/Footer';
 
 
 
@@ -24,6 +25,7 @@ function App() {
     <SectionSellnVideo/>
     <SectionForTextMap/>
     <DownloadStore/>
+    <Footer/>
     </div>
   );
 }
