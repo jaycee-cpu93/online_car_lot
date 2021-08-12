@@ -14,7 +14,7 @@ const Footer = ()=>{
                     <Col>F</Col> */}
                     <Row>
                         <Col xs={6}>©  2021 Automarket Nigeria Ltd. All rights reserved.</Col>
-
+                        
                         <Col style={{paddingLeft:"64px"}} xs={6}>
                             <div >
                                 <a href="link90" className = "policy"><span style={{paddingRight:"10px" }}>Term of use</span></a>
