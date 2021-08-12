@@ -6,7 +6,7 @@ const FixACar = () =>{
  return(
  <div className="third_mini_container">
      <div className ="ThirdBox">
-         <img src="Image/fix-your-car.jpg" alt="fixYourCar" height = "260px" width="640px"/>  
+         <img src="Image/fix-your-car.jpg" alt="fixYourCar" height = "260px" width="650px"/>  
     </div>
     <div className="text-section-three">
     <span id="text_one">NEED TO CARRY OUT CAR MAINTAINANCE</span>
